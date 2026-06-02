@@ -1,0 +1,16 @@
+{
+  "name": "express-book-api-client",
+  "version": "1.0.0",
+  "description": "Node.js client for Book Review API",
+  "main": "server.js",
+  "scripts": {
+    "task10": "node task10_getAllBooks_async.js",
+    "task11": "node task11_getByISBN_promise.js",
+    "task12": "node task12_getByAuthor_async.js",
+    "task13": "node task13_getByTitle_promise.js",
+    "all": "npm run task10 && npm run task11 && npm run task12 && npm run task13"
+  },
+  "dependencies": {
+    "axios": "^1.16.1"
+  }
+}
